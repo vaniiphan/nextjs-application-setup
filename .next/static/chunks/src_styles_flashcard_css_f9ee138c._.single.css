@@ -1,0 +1,35 @@
+/* [project]/src/styles/flashcard.css [app-client] (css) */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.flashcard-hover {
+  transition: transform .2s ease-in-out;
+}
+
+.flashcard-hover:hover {
+  transform: translateY(-5px);
+}
+
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+}
+
+.duration-500 {
+  transition-duration: .5s;
+}
+
+/*# sourceMappingURL=src_styles_flashcard_css_f9ee138c._.single.css.map*/
