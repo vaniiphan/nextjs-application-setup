@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/styles/flashcard.css"],"sourcesContent":["/* Flashcard 3D perspective */\n.perspective-1000 {\n  perspective: 1000px;\n}\n\n/* 3D transform styles */\n.transform-style-3d {\n  transform-style: preserve-3d;\n}\n\n/* Rotation classes */\n.rotate-y-180 {\n  transform: rotateY(180deg);\n}\n\n/* Hide back face of elements */\n.backface-hidden {\n  backface-visibility: hidden;\n}\n\n/* Hover effects */\n.flashcard-hover {\n  transition: transform 0.2s ease-in-out;\n}\n\n.flashcard-hover:hover {\n  transform: translateY(-5px);\n}\n\n/* Ensure smooth transitions */\n.transition-transform {\n  transition-property: transform;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n/* Duration for flip animation */\n.duration-500 {\n  transition-duration: 500ms;\n}\n"],"names":[],"mappings":"AACA;;;;AAKA;;;;AAKA;;;;AAKA;;;;AAKA;;;;AAIA;;;;AAKA;;;;;AAMA"}}]
+}
